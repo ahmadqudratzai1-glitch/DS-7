@@ -1,0 +1,50 @@
+/* Group selectors: apply the same style to h1 and h2 */
+h1, h2 {
+    font-family: Arial, sans-serif;
+    color: #1F3B57;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+h2 {
+    margin-top: 40px;
+    border-bottom: 2px solid #1F3B57;
+    padding-bottom: 4px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    max-width: 1150px;
+    margin: auto;
+    padding: 20px;
+    background-color: #FAFAFA;
+}
+
+/* Classes hold custom reusable styles */
+.intro {
+    text-align: center;
+    color: grey;
+}
+
+/* Every embedded visualization: full width, no border */
+.viz {
+    width: 100%;
+    border: none;
+    background-color: white;
+}
+
+/* Heights chosen so every control (layer control, play button, slider, legend) stays visible */
+.map {
+    height: 650px;
+}
+
+.scatter {
+    height: 720px;
+}
+
+.donuts {
+    height: 650px;
+}
